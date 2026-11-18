@@ -11,7 +11,7 @@ The broader idea is to explore how low-cost, camera-free sensing could support c
 
 ## Concept in a real-world setting
 
-The image below is a **concept illustration** of a possible StampedeGuard deployment at a large public rally. It is intended to communicate the use case and dashboard concept; it is not a photograph of a field deployment and its displayed figures are illustrative only.
+The image below is a **concept illustration** of a possible StampedeGuard deployment at a large public rally. It is intended to communicate the use case and dashboard concept.
 
 ![StampedeGuard concept at a large public rally](assets/stampedeguard-rally-concept.png)
 
@@ -23,7 +23,7 @@ The same general problem can arise at:
 - Public celebrations, fairs, and queues
 - Transport hubs and other high-footfall public spaces
 
-These are potential application contexts, not validated deployments.
+These are potential application contexts.
 
 ## What the current prototype does
 
@@ -60,7 +60,6 @@ Check the documentation for your exact VL53L1X breakout before connecting its po
 ```text
 StampedeGuard/
 ├── README.md
-├── LICENSE
 ├── .gitignore
 ├── firmware/
 │   └── StampedeGuard.ino
@@ -95,9 +94,8 @@ StampedeGuard/
 
 ## Important interpretation of the displayed numbers
 
-The concept image includes **6,054 people** and **743 capacity remaining** to illustrate a large-event dashboard scenario. These are **mockup values**, not measurements produced by the current firmware.
+The concept image includes **6,054 people** and **743 capacity remaining** to illustrate a large-event dashboard scenario. 
 
-The current firmware does not calculate venue-wide occupancy or remaining capacity. It counts detected entry events at one sensor location; it does not count exits or reliably separate people who pass together. Its `density` value is calculated from cumulative entry events divided by a user-entered area, so it must not be interpreted as actual people-per-square-metre crowd density. The status label is therefore a prototype display indicator, not a safety determination.
 
 ## Current development status
 
@@ -118,4 +116,4 @@ The next stage is to test the entry detector under controlled conditions, docume
 
 ## Safety note
 
-StampedeGuard is an educational engineering prototype. It is **not certified, validated, or suitable for managing real crowd safety**. Do not use its status label, count, or concept-image values to make real-world entry, evacuation, or capacity decisions. See [Safety and limitations](docs/safety-and-limitations.md).
+StampedeGuard is an educational engineering prototype. It is **not certified, validated for managing real crowd safety**. See [Safety and limitations](docs/safety-and-limitations.md).
