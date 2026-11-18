@@ -1,7 +1,7 @@
 # Safety, scope, and limitations
 
 ## Intended scope
-This is an educational prototype for experimenting with single-lane passage-event detection. It is not a crowd-control product or a certified safety instrument.
+This is an educational prototype for experimenting with single-lane passage-event detection. It is not a certified crowd-control product or a safety instrument.
 
 ## Known limitations in the current firmware
 - **One sensing point:** the VL53L1X observes a narrow field at one location, not an entire venue.
