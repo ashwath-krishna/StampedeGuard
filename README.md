@@ -5,7 +5,7 @@ StampedeGuard is an embedded-systems prototype built around an **ESP32** and a *
 
 The broader idea is to explore how low-cost, camera-free sensing could support crowd-management teams at large public gatherings.
 
-> **Project status:** Working prototype code and dashboard. The current hardware setup is a single-point entry-event detector, not a complete venue-wide crowd-counting or crowd-safety system. See [limitations](docs/safety-and-limitations.md).
+> **Project status:** Working prototype code and dashboard. The current hardware setup is a single-point entry-event detector, crowd-counting or crowd-safety system. See [limitations](docs/safety-and-limitations.md).
 
 ---
 
